@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{cfbf6380-c35f-479a-b69c-6089621c8c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\vector">
+      <UniqueIdentifier>{7e8f3476-4208-40c8-b4d3-66271c6e5a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\vector\vector2">
+      <UniqueIdentifier>{bfc250f5-0652-450e-abd3-f97a3df89648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\vector\vector3">
+      <UniqueIdentifier>{007c0480-0e8a-47db-88fe-d3bbd384c3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\vector\vector4">
+      <UniqueIdentifier>{94ff654c-48d0-4d43-958c-de61c0cbff8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\matrix">
+      <UniqueIdentifier>{23ef86f6-ee9f-4ca5-810b-f0e834372108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\matrix\matrix3x3">
+      <UniqueIdentifier>{48bb150f-50e1-48e0-89c4-654935c0128c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\matrix\matrix2x2">
+      <UniqueIdentifier>{b5f0703c-8468-41f3-83d4-6e3dd08a742d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\matrix\matrix4x4">
+      <UniqueIdentifier>{89a89c1c-c944-4908-9dbb-a12cb607b6ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="proj1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector\vector2\vector2.cpp">
+      <Filter>Source Files\src\vector\vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector\vector3\vector3.cpp">
+      <Filter>Source Files\src\vector\vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector\vector4\vector4.cpp">
+      <Filter>Source Files\src\vector\vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix\matrix3x3\matrix3x3.cpp">
+      <Filter>Source Files\src\matrix\matrix3x3</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix\matrix2x2\matrix2x2.cpp">
+      <Filter>Source Files\src\matrix\matrix2x2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix\matrix4x4\matrix4x4.cpp">
+      <Filter>Source Files\src\matrix\matrix4x4</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vector\vector2\vector2.h">
+      <Filter>Source Files\src\vector\vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vector\vector3\vector3.h">
+      <Filter>Source Files\src\vector\vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vector\vector4\vector4.h">
+      <Filter>Source Files\src\vector\vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix\matrix3x3\matrix3x3.h">
+      <Filter>Source Files\src\matrix\matrix3x3</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix\matrix2x2\matrix2x2.h">
+      <Filter>Source Files\src\matrix\matrix2x2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix\matrix4x4\matrix4x4.h">
+      <Filter>Source Files\src\matrix\matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lightArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lensCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\balls_high.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\balls_low.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\balls_medium.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\mount_high.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\mount_low.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\mount_very_high.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\teste.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="assets\distant_balls.nff">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
