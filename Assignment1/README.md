@@ -7,4 +7,4 @@ Grupo: 1
 | ------------- |:-------------:|
 | 83443    | Denis Voicu      |     
 
-Work requested in pdf file named Assignment1.
+The work requested for this assignmet described in pdf file named Assignment1.
